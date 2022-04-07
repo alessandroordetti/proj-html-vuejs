@@ -4,8 +4,8 @@
             <img src="../assets/img/dark-logo.png" alt="Logo MaxCoach">
         </div>
 
-        <div class="menu d-flex">
-            <ul class="d-flex">
+        <div class="menu ">
+            <ul class="d-flex align-items-center">
                 <li class="mx-4" v-for="(element, index) in menuListItems" :key=index>
                     <a href="#" class="text-black">
                         {{ element.item }}
@@ -18,9 +18,9 @@
         <div class="d-flex align-items-center">
             <img src="../assets/img/en.png" alt="Logo Bandiera" class="flag">
             <p class="mx-3 my-0">English <i class="fas fa-chevron-down"></i></p>
-            <i class="far fa-user-circle fs-4"></i>
+            <i class="far fa-user-circle fs-4 mx-2"></i>
 
-            <div>
+            <div class="searchbar d-flex align-items-center">
                 <input type="text" placeholder="Search..." class="mx-3">
                 <i class="fas fa-search fs-5 mx-2"></i>
             </div>
@@ -66,12 +66,12 @@ export default {
 <style lang="scss" scoped>
 
     header {
-        height: 100px;
+        height: 80px;
 
         & .img-wrapper {
             height: 100%;
             line-height: 75px;
-            margin-left: 8rem;
+            margin-left: 10rem;
 
             & > img {
                 width: 150px;
@@ -91,6 +91,16 @@ export default {
         .flag {
             height: 50%;
         }
+
+        .searchbar {
+            height: 80px;
+            border-left: 1px solid lightgray;
+
+            & input {
+            border: transparent;
+            }
+        }
+
     }
 
 
