@@ -1,5 +1,5 @@
 <template>
-    <div class="jumbotron section mb-5">
+    <div class="jumbotron section-background-gray section mb-5">
         <div class="container d-flex position-relative">
             <div id="left-section">
                 <h5>
@@ -32,9 +32,6 @@ export default {
 </script>
 
 <style lang="scss" scoped> 
-    .jumbotron {
-        background-color: #eceeef;
-    }
 
     .container {
         height: 100%;
