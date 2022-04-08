@@ -2,14 +2,14 @@
   <div id="app">
     <IndexHeader />
 
-    <IndexJumbotron class="section"/>
+    <IndexMain />
 
   </div>
 </template>
 
 <script>
 import IndexHeader from './components/IndexHeader.vue';
-import IndexJumbotron from './components/IndexJumbotron.vue';
+import IndexMain from './components/IndexMain.vue'
 
 
 
@@ -17,7 +17,8 @@ export default {
   name: 'App',
   components: {
     IndexHeader,
-    IndexJumbotron,
+    IndexMain,
+    
     
   }
 }

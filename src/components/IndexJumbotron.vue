@@ -1,5 +1,5 @@
 <template>
-    <div class="jumbotron">
+    <div class="jumbotron section mb-5">
         <div class="container d-flex position-relative">
             <div id="left-section">
                 <h5>
@@ -64,8 +64,8 @@ export default {
         background-size: cover;
         back
         
-        & img {
-        height: 650px;
+        .img {
+        height: 600px;
         position: absolute;
         bottom: 0;
         right: 0;
