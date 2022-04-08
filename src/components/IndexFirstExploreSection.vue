@@ -29,7 +29,7 @@
             </div>
 
             <div class="row">
-                <div class="col-4 m-auto text-center">
+                <div class="col-4 m-auto text-center mb-4">
                     <span class="dot bg-dark"></span>
                     <span class="dot mx-3"></span>
                     <span class="dot"></span>
@@ -49,17 +49,17 @@ export default {
                 {
                     title: 'Consultative Training',
                     description: 'With a coach addressing multiple issues that are off abalance, affecting your business in various unconsidered ways',
-                    image: require('@/assets/img/home-business-service-slide-01-480x298.jpg')
+                    image: require('../assets/img/home-business-service-slide-01-480x298.jpg')
                 },
                 {
                     title: 'Real Deal Coaching',
                     description: 'Brings an exceptionally powerful opportunity. Being able to accept, to work with that opportunity.',
-                    image: require('@/assets/img/home-business-service-slide-02-480x298.jpg')
+                    image: require('../assets/img/home-business-service-slide-02-480x298.jpg')
                 },
                 {
                     title: 'Advisor Training Program',
                     description: 'Getting high quality, entrepreuner mindset driven online business coaching, is what is needed.',
-                    image: require('@/assets/img/home-business-service-slide-03-480x298.jpg')
+                    image: require('../assets/img/home-business-service-slide-03-480x298.jpg')
                 }
             ]
         }
