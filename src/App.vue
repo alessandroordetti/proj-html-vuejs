@@ -21,8 +21,6 @@ export default {
     IndexHeader,
     IndexMain,
     IndexFooter,
-    
-    
   }
 }
 </script>

@@ -84,6 +84,15 @@ export default {
                 color: #25ac94;
             }
         }
+
+        & .discover:hover {
+            background-color: #25ac94;
+            
+            & span {
+                color: white;
+            }
+
+        }
     }
 
     .dot {

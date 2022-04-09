@@ -81,6 +81,15 @@ export default {
         background-color: #25ac94;
     }
 
+    .right-button:hover{
+        background-color: #3f3a64;
+    }
+
+    .left-button:hover{
+        background-color: #3f3a64;
+        color: white;
+    }
+
     button {
         border: transparent;
     }

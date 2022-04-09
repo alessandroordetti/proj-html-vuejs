@@ -54,6 +54,10 @@ export default {
             border: transparent;
             font-size: .8rem;
         }
+
+        & button:hover{
+            background-color: #3f3a64;
+        }
     }
 
     .avatar-wrapper {

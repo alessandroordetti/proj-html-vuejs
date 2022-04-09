@@ -11,9 +11,9 @@
 
             <div class="row">
                 <div class="col-6 mb-5 " v-for="(element, index) in events" :key=index>
-                    <div class="card-event d-flex justify-content-between bg-light" >
+                    <div class="card-event d-flex justify-content-between" >
                         <div class="left-side m-4">
-                            <h5> <i class="fas fa-map-marker-alt"></i> {{element.city}}</h5>
+                            <h5 class="city"> <i class="fas fa-map-marker-alt"></i> {{element.city}}</h5>
 
                             <h4>{{element.event}}</h4>
                         </div>
@@ -102,5 +102,22 @@ export default {
 
     .left-side {
         width: 320px;
+    }
+
+    .card-event {
+        background-color: rgba(211, 211, 211, 0.242);
+    }
+
+    .card-event:hover {
+        background-color: white;
+        border-left: 2px solid #25ac94;
+
+        button {
+            background-color: #3f3a64;
+        }
+    }
+
+    .city {
+        color: rgba(188, 175, 175, 0.922);
     }
 </style>
