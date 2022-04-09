@@ -14,7 +14,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-3 single-card position-relative mb-3" v-for="(element, index) in cards" :key=index>
+                    <div class="col-3 single-card position-relative mb-5" v-for="(element, index) in cards" :key=index>
                         <img :src="element.image" alt="Poster-card image">
 
                         <div class="description position-absolute">
@@ -64,6 +64,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+    .section {
+        margin-bottom: 6rem;
+    }
+
     h2 {
         color: #25ac94;
     }

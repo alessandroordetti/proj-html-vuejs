@@ -11,6 +11,8 @@
         <IndexBusinessSection />
 
         <IndexEventsSection />
+
+        <IndexFeedbacksSection />
     </main>
 </template>
 
@@ -21,6 +23,7 @@ import IndexFirstExploreSection from './IndexFirstExploreSection.vue';
 import IndexSecondExploreSection from './IndexSecondExploreSection.vue';
 import IndexBusinessSection from './IndexBusinessSection.vue';
 import IndexEventsSection from './IndexEventsSection.vue';
+import IndexFeedbacksSection from './IndexFeedbacksSection.vue';
 
 export default {
     components: {
@@ -29,7 +32,8 @@ export default {
         IndexFirstExploreSection,
         IndexSecondExploreSection,
         IndexBusinessSection,
-        IndexEventsSection
+        IndexEventsSection,
+        IndexFeedbacksSection
     }
 }
 </script>

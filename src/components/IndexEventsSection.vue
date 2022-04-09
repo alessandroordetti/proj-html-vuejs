@@ -15,7 +15,7 @@
                         <div class="left-side m-4">
                             <h5> <i class="fas fa-map-marker-alt"></i> {{element.city}}</h5>
 
-                            <h3>{{element.event}}</h3>
+                            <h4>{{element.event}}</h4>
                         </div>
 
                         <div class="right-side text-center p-4">
@@ -92,6 +92,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+    .section {
+        margin-bottom: 15rem;
+    }
+
     button {
         border: transparent;
     }
