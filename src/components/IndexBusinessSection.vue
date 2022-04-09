@@ -1,18 +1,32 @@
 <template>
-    <div class="business-section section">
+    <div class="business-section section position-relative">
+        <img src="../assets/img/maxcoach-shape-07-100x100.png" alt="Immagine sfondo pallini" class="pallini position-absolute">
+
         <div class="container">
             <div class="row">
                 <div class="col-7 left-side position-relative">
-                    <div class="image-container position-absolute">
-                        <img src="../assets/img/icon-youtube-play.png" alt="Logo Youtube" class="position-absolute">
+                    <div class="image-container position-relative position-absolute">
+                        <img src="../assets/img/icon-youtube-play.png" alt="Logo YouTube" class="logo position-absolute">
                     </div>
                 </div>
 
-                <div class="col-5 right-side text-white">
-                    <h2>To Thrive in Business Today, You'll Need a Good Plan
+                <div class="col-5 right-side text-white m-auto">
+                    <h2 class="mb-5">To Thrive in Business Today, You'll Need a Good Plan
                     </h2>
 
+                    <h5 class="mb-4 text-open">
+                        <i class="far fa-arrow-alt-circle-up"></i> How can we help?
+                    </h5>
 
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eius? Eveniet totam assumenda numquam, autem eum ea, ad eius maxime iste ipsa aperiam ipsam animi et aliquid ex necessitatibus quis?</p>
+
+                    <h5 class="mb-5">
+                        <i class="far fa-arrow-alt-circle-down"></i> Why would I need a business COACH?
+                    </h5>
+
+                    <h5 class="mb-5">
+                        <i class="far fa-arrow-alt-circle-down"></i> What is one-on-one coaching?
+                    </h5>
                 </div>
             </div>
         </div>
@@ -30,34 +44,39 @@ export default {
         background-color: #323043;
     }
 
-    .container {
+    .container, .row, .left-side, .image-container {
         height: 100%;
-        background-image: url('../assets/img/home-business-hero-global-image.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: right;
     }
 
-    .image-container {
-        width: 70%;
-        height: 300px;
-        background-image: url('../assets/img/home-business-video-poster-670x450.jpg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        top: 200px;
-        left: 150px;
+    .pallini {
+        bottom: 100px;
+        left: 200px;
+    }
 
-        & img {
-            width: 80px;
+    .left-side > .image-container {
+        height: 500px;
+        width: 600px;
+        top: 50%;
+        transform: translate(0, -50%);
+        background-image: url('../assets/img/home-business-video-poster-670x450.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        & .logo {
+            top:50%;
             left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, -100%);
         }
     }
 
     .right-side {
-        background-image: url('');
-        height: 500px;
-
+        background-image: url('../assets/img/home-business-hero-global-image.png');
+        background-size: contain;
     }
+
+    .text-open {
+        color: #25ac94;
+    }
+
+
 </style>
