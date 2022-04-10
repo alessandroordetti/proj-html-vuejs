@@ -72,6 +72,8 @@ export default {
     .right-side {
         background-image: url('../assets/img/home-business-hero-global-image.png');
         background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .text-open {
