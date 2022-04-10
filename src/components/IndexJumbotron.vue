@@ -1,5 +1,5 @@
 <template>
-    <div class="jumbotron section-background-gray section mb-5">
+    <div class="jumbotron section-background-gray section mb-5 position-relative">
         <div class="container d-flex position-relative">
             <div id="left-section">
                 <h5>
@@ -20,6 +20,14 @@
             <div class="avatar-wrapper">
                 <img src="../assets/img/home-business-hero-avatar.png" alt="Immagine avatar">
             </div>
+
+        </div>
+
+        <div class="lateral-options position-absolute text-center fs-4 rounded-2">
+            <i class="fas fa-caret-right d-block"></i>
+            <i class="far fa-plus-square"></i>
+            <i class="fas fa-book"></i>
+            <i class="fas fa-shopping-cart"></i>
 
         </div>
     </div>
@@ -73,5 +81,11 @@ export default {
         }
     }
 
-
+    .lateral-options {
+        height: 135px;
+        width: 35px;
+        background-color: white;
+        right: 0;
+        top: 20%;
+    }
 </style>
