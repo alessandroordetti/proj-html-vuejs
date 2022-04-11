@@ -21,7 +21,7 @@
                             <h5>{{element.price}}</h5>
                             <h4 class="text-white fs-5">{{element.title}}</h4>
 
-                            <div class="infos text-white d-none">
+                            <div class="infos text-white">
                                 <p class="d-inline mx-1"><i class="fas fa-book"></i> 20 Lessons</p>
                                 <p class="d-inline"><i class="far fa-user"></i> 50 students</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum cum, obcaecati, dolore quo nulla tempore expedita </p>
@@ -78,9 +78,13 @@ export default {
         color: #25ac94;
     }
 
-    .single-card img:hover {
+    .infos {
+        display: none;
+    }
+
+    .single-card:hover {
         .infos {
-            display: block;
+            display: inline-block;
         }
     }
 

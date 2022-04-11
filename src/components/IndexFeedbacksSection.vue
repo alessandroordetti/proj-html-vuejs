@@ -41,7 +41,6 @@
                     <span class="dot mx-1 bg-dark"></span>
                     <span class="dot mx-1"></span>
                     <span class="dot mx-1"></span>
-                    <span class="dot mx-1"></span>
                 </div>
             </div>
         </div>
