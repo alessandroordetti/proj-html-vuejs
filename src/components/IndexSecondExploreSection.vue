@@ -14,8 +14,8 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-3 single-card position-relative mb-5" v-for="(element, index) in cards" :key=index>
-                        <img :src="element.image" alt="Poster-card image">
+                    <div class="col-3 single-card position-relative  mb-5" v-for="(element, index) in cards" :key=index>
+                        <img :src="element.image" alt="Poster-card image" class="rounded-2">
 
                         <div class="description position-absolute">
                             <h5>{{element.price}}</h5>
@@ -92,7 +92,6 @@ export default {
     .single-card img {
         height: 400px;
         margin-right: 2rem;
-        width: calc(100% - 4px) / 4;
     }
 
     .description {
